@@ -6,7 +6,7 @@
             "name":"Ends with us",
             "author":"coleneer",
             "ISBN":"1234567",
-            "image": "Images/Book1"
+            "image": "Images/Book1.jpeg"
         },
         {
 
@@ -14,7 +14,7 @@
             "name":"Ends with you",
             "author":"coleneer",
             "ISBN":"1234567",
-            "image": "Images/Book1"
+            "image": "Images/Book1.jpeg"
         },
         {
 
@@ -22,7 +22,7 @@
             "name":"Cavalier",
             "author":"john doe",
             "ISBN":"1234567",
-            "image": "Images/Book1"
+            "image": "Images/Book1.jpeg"
         },
         {
 
@@ -30,7 +30,7 @@
             "name":"Education",
             "author":"sharon",
             "ISBN":"1234567",
-            "image": "Images/Book1"
+            "image": "Images/Book1.jpeg"
         }
     ],
     "Authors" : [
