@@ -1,0 +1,17 @@
+{
+    "Books" : [
+        {
+
+            "id":1,
+            "name":"Ends with us",
+            "author":"coleneer",
+            "ISBN":"1234567"
+        }
+    ],
+    "Authors" : [
+        {
+            "id":1,
+            "author_name":"coleneer"
+        }
+    ]
+}
