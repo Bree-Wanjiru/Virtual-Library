@@ -9,24 +9,24 @@
     },
     {
       "id": 2,
-      "name": "Ends with you",
-      "author": "coleneer",
-      "ISBN": "1234567",
-      "image": "Images/Book1.jpeg"
+      "name": "Falls the shadow",
+      "author": "Stefanie",
+      "ISBN": "832830923",
+      "image": "Images/book2.jpeg"
     },
     {
       "id": 3,
-      "name": "Cavalier",
-      "author": "john doe",
-      "ISBN": "1234567",
-      "image": "Images/Book1.jpeg"
+      "name": "The alchemist",
+      "author": "Paulo",
+      "ISBN": "7942084280",
+      "image": "Images/book3.jpeg"
     },
     {
       "id": 4,
-      "name": "Education",
-      "author": "sharon",
-      "ISBN": "1234567",
-      "image": "Images/Book1.jpeg"
+      "name": "1984",
+      "author": "George",
+      "ISBN": "4829489274",
+      "image": "Images/book4.jpeg"
     },
     {
       "name": "things fall apart",
@@ -45,12 +45,12 @@
     },
     {
       "id": 2,
-      "author_name": "chinua achebe",
+      "author_name": "Stefanie",
       "author_review": "Great writer!!"
     },
     {
       "id": 3,
-      "author_name": "steve biko",
+      "author_name": "Paulo",
       "author_review": "Amazing!!"
     },
     {
@@ -62,6 +62,11 @@
       "author_name": "allen",
       "author_review": "good writer",
       "id": 5
-    }
+    },
+    {
+        "author_name": "George",
+        "author_review": "good writer",
+        "id": 5
+      }
   ]
 }
