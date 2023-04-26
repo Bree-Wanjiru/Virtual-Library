@@ -73,7 +73,7 @@ fetch(" http://localhost:3000/Authors")
         auth_data.map(function(dt){
             
             const author=document.createElement("li")
-            author.innerHTML=dt.name
+            author.innerHTML=dt.author_name
             auth_list.appendChild(author)
             author.addEventListener("click",function(){
             name_auth.innerHTML=dt.author_name
