@@ -25,8 +25,9 @@
                 <li><a href="#About">About</a></li>
                 <li><a href="#Featured">View books</a></li>
                 <li><a href="#Arrivals">Add books</a></li>
+                <li><a href="#l_auth">List Authors</a></li>
+                <li><a href="#a_auth">Add Authors</a></li>
                 <li><a href="#Reviews">Reviews</a></li>
-                <li><a href="#Blog">Blog</a></li>
             </ul>
 
            
@@ -112,9 +113,10 @@
     <div class="books" id="Featured">
         <h1>Featured books</h1>
            <div class="featured_box">
-             <ol id="list">
+             <p>Click book to display</p>
+               <ol id="list">
           
-             </ol>
+               </ol>
               <div class="featured_card" id="details">
                  <img src="" id="image"/>
                  <p id="title"></p>
@@ -138,25 +140,31 @@
     </div>
     
  <!-- authors -->
-<div class="authors">
-    
-    <ol id="author_list">
+<div class="authors" id="l_auth">
+    <h1>Authors</h1>
+    <div class="authors_box">
+        <p>Click author to view</p>
+         <ol id="author_list">
        
-    </ol>
-    <div id="details">
-     <p id="author_name">Author name</p>
-     <p id="review_author">Reviews</p>
-     
+        </ol>
+        <div class="featured_auth" id="details">
+          <p id="author_name"></p>
+          <p id="review_author"></p>
+       
+        </div>
     </div>
  </div>
 
 <!-- add author -->
-    <div class="add_books">
-       <form id="add">
-         <input type="text" placeholder="Enter author name:" id="e_authname"/>
-         <input type="text" placeholder="Enter author review:" id="e_authreview"/> 
-         <button id="add-author">Add Author</button>
-      </form>
+    <div class="add_author" id="a_auth">
+      <h1>Add author</h1>
+        <div class="add_auth">
+            <form id="add">
+              <input type="text" placeholder="Enter author name:" id="e_authname"/>
+              <input type="text" placeholder="Enter author review:" id="e_authreview"/> 
+              <button id="add-author">Add Author</button>
+            </form>
+        </div>
     </div>
 
   <!--reviews-->
