@@ -109,33 +109,37 @@
 
     <!--Books-->
     <!-- view books -->
-    <div class="books">
-
-       <ol id="list">
+    <div class="books" id="Featured">
+        <h1>Featured books</h1>
+           <div class="featured_box">
+             <ol id="list">
           
-       </ol>
-       <div id="details">
-        <img src="" id="image"/>
-        <h2 id="title">Book title</h2>
-        <p id="author">Author name</p>
-        <p id="ISBN">ISBN no</p>
-       </div>
+             </ol>
+              <div class="featured_card" id="details">
+                 <img src="" id="image"/>
+                 <p id="title"></p>
+                 <p id="author"></p>
+                 <p id="ISBN"></p>
+            </div>
+        </div>
     </div>
-
   <!-- add books -->
-    <div class="add_books">
-        <form id="add">
-            <input type="text" placeholder="Enter book name:" id="e_bname"/>
-            <input type="text" placeholder="Enter author name:" id="e_aname"/>
-            <input type="number" placeholder="Enter ISBN number:" id="e_isbn"/>
-            <input type="text" placeholder="Enter image url:" id="e_image"/>
-            <button id="add-book">Add Book</button>
-        </form>
+    <div class="add_books" id="Arrivals">
+        <h1>Add books</h1>
+        <div class="add_box">
+            <form id="add">
+             <input type="text" placeholder="Enter book name:" id="e_bname"/>
+             <input type="text" placeholder="Enter author name:" id="e_aname"/>
+             <input type="number" placeholder="Enter ISBN number:" id="e_isbn"/>
+             <input type="text" placeholder="Enter image url:" id="e_image"/>
+             <button id="add-book">Add Book</button>
+             </form>
+        </div>
     </div>
     
  <!-- authors -->
 <div class="authors">
-
+    
     <ol id="author_list">
        
     </ol>
@@ -145,7 +149,7 @@
      
     </div>
  </div>
- 
+
 <!-- add author -->
     <div class="add_books">
        <form id="add">

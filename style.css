@@ -178,6 +178,105 @@ section .main {
 }
 
 /*books*/
+.books{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0; 
+    /* width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; */
+}
+
+.books h1{
+    display: flex; 
+    
+    justify-content: center; 
+    margin-bottom: 30px;
+    font-size: 45px; 
+    
+}
+
+.books .featured_box{
+    width: 100%;
+    height: 60vh;
+    box-shadow: 0 0 8px #08a970;
+    display: flex; 
+    /* margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    overflow-x: scroll; */
+}
+.featured_card{
+    width: 800px;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+    /* border: 1px solid #919191; */
+    /* margin-top: 10px; */
+    /* width: 800px; */
+    /* height: 40px; */
+    /* size: 80%; */
+    margin-left: 150px;
+    margin-top: 20px;
+    float: left; 
+}
+#image{
+    width: 100px;
+}
+
+#list{
+    margin-top: 20px;
+    width: 200px;
+    margin-right: 40px;
+    text-align: center;
+    text-decoration:#000 ;
+    
+    
+}
+
+/* #details{ */
+    /* display: flex; */
+    
+    /* width: 800px;
+    height: 40px;
+    size: 50%;
+    margin-left: 150px;
+    margin-top: 50px;
+    float: left; */
+/* }  */
+
+.add_books h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px; 
+}
+.add_box{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    /* display: vertical; */
+    /* align-items: center; */
+    justify-content: content;
+    box-shadow: 0 0 8px #08a970;
+}
+input{
+    border-radius:3px;
+    width:auto;
+    display: list-item;
+    margin-top: 10px;
+    
+}
+#add-book {
+    background-color: #08a970;
+    margin-top: 40px;
+}
+
 
 
 /* reviews */
