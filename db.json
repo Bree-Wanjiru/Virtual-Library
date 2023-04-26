@@ -1,42 +1,45 @@
 {
-    "Books" : [
-        {
-
-            "id":1,
-            "name":"Ends with us",
-            "author":"coleneer",
-            "ISBN":"1234567",
-            "image": "Images/Book1.jpeg"
-        },
-        {
-
-            "id":2,
-            "name":"Ends with you",
-            "author":"coleneer",
-            "ISBN":"1234567",
-            "image": "Images/Book1.jpeg"
-        },
-        {
-
-            "id":3,
-            "name":"Cavalier",
-            "author":"john doe",
-            "ISBN":"1234567",
-             "image": "Images/Book1.jpeg"
-        },
-        {
-
-            "id":4,
-            "name":"Education",
-            "author":"sharon",
-            "ISBN":"1234567",
-            "image": "Images/Book1.jpeg"
-        }
-    ],
-    "Authors" : [
-        {
-            "id":1,
-            "author_name":"coleneer"
-        }
-    ]
+  "Books": [
+    {
+      "id": 1,
+      "name": "Ends with us",
+      "author": "coleneer",
+      "ISBN": "1234567",
+      "image": "Images/Book1.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Ends with you",
+      "author": "coleneer",
+      "ISBN": "1234567",
+      "image": "Images/Book1.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Cavalier",
+      "author": "john doe",
+      "ISBN": "1234567",
+      "image": "Images/Book1.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Education",
+      "author": "sharon",
+      "ISBN": "1234567",
+      "image": "Images/Book1.jpeg"
+    },
+    {
+      "name": "things fall apart",
+      "author": "tony stark",
+      "ISBN": "848342094",
+      "image": "https://img.icons8.com/plasticine/100/null/chuck-norris.png",
+      "id": 5
+    }
+  ],
+  "Authors": [
+    {
+      "id": 1,
+      "author_name": "coleneer"
+    }
+  ]
 }
