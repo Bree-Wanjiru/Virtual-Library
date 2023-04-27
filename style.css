@@ -199,6 +199,7 @@ section .main {
     box-shadow: 0 0 8px #08a970;
     display: flex; 
 }
+
 .featured_card{
     width: 800px;
     height: 40px;
