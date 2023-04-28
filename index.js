@@ -103,3 +103,24 @@ button.addEventListener("click",function(event){
             .then((new_author) => console.log(new_author))
 
 })
+
+// put author
+fetch('http://localhost:3000/Authors/4', {
+    method: "PUT",
+    headers: {
+        'Content-type': 'application/json'
+    },
+    body: JSON.stringify(
+        { author_name: "Breanna",
+        author_review: "best selling author!!"}
+    )
+})
+.then(res => {
+    if (res.ok) { console.log("HTTP request successful") }
+    else { console.log("HTTP request unsuccessful") }
+    return res
+})
+.then(res => res.json())
+.then(data => console.log(data))
+.catch(error => console.log(error))
+

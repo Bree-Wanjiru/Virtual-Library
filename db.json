@@ -35,7 +35,6 @@
       "image": "https://img.icons8.com/plasticine/100/null/chuck-norris.png",
       "id": 5
     }
-   
   ],
   "Authors": [
     {
@@ -55,8 +54,9 @@
     },
     {
       "id": 4,
-      "author_name": "brenda",
-      "author_review": "New york best selling author!!"
+      "author_name": "Brenda",
+      "author_review": "New York best selling author!!"
+      
     },
     {
       "author_name": "allen",
@@ -64,9 +64,9 @@
       "id": 5
     },
     {
-        "author_name": "George",
-        "author_review": "good writer",
-        "id": 6
-      }
+      "author_name": "George",
+      "author_review": "good writer",
+      "id": 6
+    }
   ]
 }
