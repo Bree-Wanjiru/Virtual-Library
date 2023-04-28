@@ -29,8 +29,8 @@
       "image": "Images/book4.jpeg"
     },
     {
-      "name": "things fall apart",
-      "author": "tony stark",
+      "name": "Things fall apart",
+      "author": "Thomas",
       "ISBN": "848342094",
       "image": "https://img.icons8.com/plasticine/100/null/chuck-norris.png",
       "id": 5
@@ -53,10 +53,9 @@
       "author_review": "Amazing!!"
     },
     {
-      "id": 4,
       "author_name": "Brenda",
-      "author_review": "New York best selling author!!"
-      
+      "author_review": "New york best selling author!!",
+      "id": 4
     },
     {
       "author_name": "allen",

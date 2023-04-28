@@ -124,3 +124,25 @@ fetch('http://localhost:3000/Authors/4', {
 .then(data => console.log(data))
 .catch(error => console.log(error))
 
+//put book
+fetch('http://localhost:3000/Books/5', {
+    method: "PUT",
+    headers: {
+        'Content-type': 'application/json'
+    },
+    body: JSON.stringify(
+        { name: "Surrounded by idiots",
+          author: "Thomas",
+          ISBN:"57349304053",
+          image:"Images/Book5(put).jpeg"
+        }
+    )
+})
+.then(res => {
+    if (res.ok) { console.log("HTTP request successful") }
+    else { console.log("HTTP request unsuccessful") }
+    return res
+})
+.then(res => res.json())
+.then(data => console.log(data))
+.catch(error => console.log(error))
